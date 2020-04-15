@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+
+    <!-- Required meta tags           red #f81c1c    black #30383b    project hover #0c1028-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Malik Alnabouli</title>
+    <link rel="icon" href="img/up2.png">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/icomoon.css') }}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}"> --}}
+
+    <script src="https://kit.fontawesome.com/d1498a58a6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> <img src="img/logopng3.png" alt="logo"> </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span style=" top: -16px; right: 11px; color: #fff; font-size: 33px;" class="fa fa-bars"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('home')}}">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('home')}}#service">Service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('home')}}#projects">Projects</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('home')}}#skills">Skills</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('home')}}#about">About</a>
+                                </li>
+
+                                {{-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="blog.html"> blog</a>
+                                        <a class="dropdown-item" href="single-blog.html">Single blog</a>
+
+                                    </div>
+                                </li> --}}
+
+                                {{-- <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                        <a class="dropdown-item" href="team.html">team</a>
+                                        <a class="dropdown-item" href="price.html">price</a>
+                                        <a class="dropdown-item" href="elements.html">Elements</a>
+                                    </div>
+                                </li> --}}
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{route('home')}}#contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+    <!-- banner part start-->
+    <section class="banner_part">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="banner_text">
+                        <div class="banner_text_iner">
+
+                        @if (session('success'))
+                            <div style="" class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
+                            <h5>Hey there i'm</h5>
+                            <h1>Malik Alnabouli</h1>
+                            <h2 style="color: white; margin-top: -20px;">Full Stack Developer</h2>
+                            <p>A student at the University of Tripoli, Computer Science.</p>
+                            <div class="banner_btn">
+                                <a href="#" class="btn_1">Contact Me</a>
+                                <a href="#" class="btn_2">Hire Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- banner part start-->
+
+
+
+
+    <!-- service_area  -->
+
+    <a name="service"></a>
+    <div class="service_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-65">
+                        <span>Service Provided</span>
+                        <h3>My Services</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/web2.png" alt="">
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/64.png" alt="">
+                        </div>
+                        <h3>Web Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_service text-center">
+                        <div class="icon">
+                            <img src="img/php.png" alt="">
+                        </div>
+                        <h3>Php Programmer</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <a name="projects"></a>
+    </div>
+    <!--/ service_area  -->
+
+
+{{-- projects --}}
+
+    <section class="ftco-section ftco-project" id="projects-section">
+    	<div class="container">
+    		<div class="row justify-content-center pb-5">
+          <div class="col-md-12 heading-section text-center ftco-animate">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-65">
+                        <span>ACCOMPLISHMENTS</span>
+                        <h3>My Projects</h3>
+                    </div>          
+                </div>
+        </div>
+        {{-- For big image Add img-2 at class--}}
+    		<div class="row">
+    			<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/library.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Electronic Science Library</a></h3>
+	    					<h5 style="color: #fff;">Web Design</h5>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/librarylogo.png);">
+		    					<div class="overlay"></div>
+			    				<div class="text text-center p-4">
+			    					<h3><a href="#">Electronic Science Library Logo</a></h3>
+	    					        <h5 style="color: #fff;">Visual identity  By:Luqman Kh</h5>
+			    				</div>
+		    				</div>
+    			</div>
+    			<div class="col-md-4">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/doctorlogo2.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">MyDoctor Logo</a></h3>
+	    					<h5 style="color: #fff;">Visual identity</h5>
+	    				</div>
+    				</div>
+  				</div>
+  				<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/doctor.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">MyDoctor</a></h3>
+	    					<h5 style="color: #fff;">Web Design</h5>
+	    				</div>
+    				</div>
+  				</div>
+    			<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/hyper.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3><a href="#">Hyper Team</a></h3>
+	    					<h5 style="color: #fff;">Web Design</h5>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/malik.png);">
+	    	     	    <div class="overlay"></div>
+         				    <div class="text text-center p-4">
+	    					    <h3><a href="#">Malik Logo</a></h3>
+	        				    <h5 style="color: #fff;">Visual identity</h5>
+						    </div>
+		    		    </div>
+    			    </div>
+    		    </div>
+    	    </div>
+        </section>
+
+    <a name="skills"></a>
+		<section style="padding-top: 150px;" class="ftco-section bg-light" id="skills-section">
+			<div class="container">
+				<div class="row justify-content-center pb-5">
+                  <div class="col-md-12 heading-section text-center ftco-animate">
+                    <div class="section_title text-center mb-65">
+                        <span>SKILLS</span>
+                        <h3>My Skills</h3>
+                    </div>  
+                  </div>
+                </div>
+				<div style="margin-top: -30px;" class="row">
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Laravel</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="90"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:90%">
+							    <span class="o1">90%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>Bootstrap</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="70"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+							    <span class="o2">70%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>HTML5</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="80"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
+							    <span class="o3">80%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>CSS3</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="85"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
+							    <span class="o4">85%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>PHP</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="75"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:75%">
+							    <span class="o5">75%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 animate-box">
+						<div class="progress-wrap ftco-animate">
+							<h3>JavaScript</h3>
+							<div class="progress">
+							 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="70"
+							  	aria-valuemin="0" aria-valuemax="100" style="width:70%">
+							    <span class="o6">70%</span>
+							  	</div>
+							</div>
+						</div>
+					</div>
+                      <div style="margin-top: 30px;" class="col text-center">
+                        <a href="{{ route('cer') }}" class="btnbtn py-2 px-5">My Certificates</a>
+                      </div>
+				</div>
+				<div class="row justify-content-center py-5 mt-5">
+    <a name="about"></a>
+        </div>
+		</section>
+
+    <!-- about_me  -->
+    <div class="about_me">
+        <div class="about_large_title d-none d-lg-block">
+            About
+        </div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_e_details">
+                        <h1 style="font-size: 52px;"><strong>About me</strong></h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.</p>
+                        <div class="download_cv">
+                            <a class="boxed-btn3" href="{{route('home')}}#contact">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_img">
+                        <div class="color_pattern d-none d-lg-block">
+                            <img src="img/color_grid3.png" alt="">
+                        </div>
+                        <div class="my_Pic">
+                            <img src="img/my-image/about.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ about_me  -->
+
+
+{{-- hire me --}}
+
+		<section class="ftco-section ftco-hireme">
+			<div style="padding: 100px 0px;" class="container">
+				<div class="row">
+					<div class="col-md-8 col-lg-9 d-flex align-items-center ftco-animate">
+						<h2>I'm <span>Available</span> For Freelancing</h2>
+					</div>
+					<div class="col-md-4 col-lg-3 d-flex align-items-center ftco-animate">
+						<p class="mb-0"><a href="{{route('home')}}#contact2" class="btn btn-white py-4 px-5">Hire me</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+{{-- contact --}}
+    <a name="contact"></a>
+    <section style="padding-top: 80px;" class="ftco-section contact-section ftco-no-pb" id="contact-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+                    <div class="section_title text-center mb-65">
+                        <span>CONTACT</span>
+                        <h3>Contact Me</h3>
+                    </div>  
+          </div>
+        </div>
+            <div class="row d-flex contact-info mb-5">
+                <div class="col-md-4 col-lg-4 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-map-signs"></span>
+                        </div>
+                        <h3 class="mb-4">Address</h3>
+                        <p class="des">Libya, Tripoli, Zawiyat Al Dahmani</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-phone"></span>
+                        </div>
+                        <h3 class="mb-4">Contact Number</h3>
+                        <p><a class="des" href="tel://218927971679">+218927971679</a></p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 d-flex ftco-animate">
+                    <div class="align-self-stretch box p-4 text-center">
+                        <div class="icon d-flex align-items-center justify-content-center">
+                            <span class="fa fa-paper-plane"></span>
+                        </div>
+                        <h3 class="mb-4">Email Address</h3>
+                        <p><a class="des" href="mailto:maleknp127@gmail.com">maleknp127@gmail.com</a></p>
+                    </div>
+                </div>
+    <a name="contact2"></a>
+
+            </div>
+
+        <div class="row no-gutters block-9">
+          <div class="col-md-6 order-md-last d-flex">
+            <form action="{{route('contact')}}" method="post" class="bg-light p-4 p-md-5 contact-form">
+             @csrf
+
+    @if ($errors->count())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li style="color: red;">{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
+              <div class="form-group">
+                <input type="text" class="form-control" name="name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="email" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Send Message" class="boxed-btn3 btn-primary py-2 px-4">
+              </div>
+            </form>
+          
+          </div>
+
+          <div class="col-md-6 d-flex">
+          	<div class="img" style="background-image: url(img/about.jpg);"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+
+     <footer class="site-footer slanted-footer">
+
+      <a href="#top" class="smoothscroll scroll-top">
+        <span class="fa fa-arrow-up"></span>
+      </a>
+
+      <div class="container">
+        <div class="row mb-5">
+            <div class="footer-social col-lg-12 text-center">
+              <a href="https://web.facebook.com/Maleknp97"><span class="icon-facebook"></span></a>
+              <a href="https://www.instagram.com/malik_al_nabouli/"><span class="icon-instagram"></span></a>
+              <a href="https://www.linkedin.com/in/malik-alnabouli-a0863a1a4/"><span class="icon-linkedin"></span></a>
+              <a href="https://twitter.com/Malek50342420"><span class="icon-twitter"></span></a>
+
+            </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <p class="copyright"><small class="block">
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Made <img width="30px" height="25px" src="img/up2.png"> by <a href="{{route('home')}}" >Malik Alnabouli</a>
+            </small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+
+
+    <!-- jquery plugins here-->
+
+    <script src="{{ asset('js/jquery-1.12.1.min.js') }}"></script>
+
+    <script src="{{ asset('js/jquery.magnific-popup.js') }}"></script>
+
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/slick.min.js') }}"></script>
+    <script src="{{ asset('js/gijgo.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>
+</body>
+
+</html>
