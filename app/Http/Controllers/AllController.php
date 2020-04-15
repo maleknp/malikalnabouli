@@ -32,7 +32,7 @@ class AllController extends Controller
 
         $data = request()->all();
         Mail::to('maleknp127@gmail.com')->send(new ContactMail($data));
-        return redirect()->route('home' .'#contact')->with('success', 'Thanks for contacting us! ');
+        return redirect()->route('home')->with('success', 'Thanks for contacting us! ');
     }
 
 
