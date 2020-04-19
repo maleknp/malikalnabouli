@@ -5,6 +5,7 @@
 
 
     <!-- Required meta tags           red #f81c1c    black #30383b    project hover #0c1028-->
+    <meta name="description" content="I'm Malik Alnabouli 23 years old from Libya Student at Tripoli University, College of Computer Science, I work as a web developer  & designer.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Malik Alnabouli</title>
@@ -28,7 +29,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logopng3.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="{{route('home')}}"> <img src="img/logopng3.png" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span style=" top: -16px; right: 11px; color: #fff; font-size: 33px;" class="fa fa-bars"></span>
                         </button>
@@ -94,16 +95,35 @@
                     <div class="banner_text">
                         <div class="banner_text_iner">
 
-                        @if (session('success'))
-                            <div style="" class="alert alert-success">
-                                {{ session('success') }}
-                            </div>
-                        @endif
+    @if (session('success'))
+        <div style="" class="alert alert-success">
+            {{ session('success') }}
+        </div>
+    @endif
+
+    @if ($errors->count())
+        <div class="alert alert-danger">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li style="color: red;">{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
+
+				<div class="js-fullheight d-flex justify-content-center align-items-center">
+					<div class="col-md-8 text text-center">
+						<div class="myimg mb-4" style="background-image: url(img/my-image/small2.jpg);"></div>
+					</div>
+				</div>
+
+
 
                             <h5>Hey there i'm</h5>
                             <h1>Malik Alnabouli</h1>
                             <h2 style="color: white; margin-top: -20px;">Full Stack Developer</h2>
-                            <p>A student at the University of Tripoli, Computer Science.</p>
+                            <p>A student at the University of Tripoli, Computer Science <\></p>
                             <div class="banner_btn">
                                 <a href="#" class="btn_1">Contact Me</a>
                                 <a href="#" class="btn_2">Hire Me</a>
@@ -157,7 +177,7 @@
                         <div class="icon">
                             <img src="img/php.png" alt="">
                         </div>
-                        <h3>Php Programmer</h3>
+                        <h3>PHP Developer</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
                     </div>
                 </div>
@@ -169,6 +189,7 @@
 
 
 {{-- projects --}}
+        {{-- For big image Add img-2 at class--}}
 
     <section class="ftco-section ftco-project" id="projects-section">
     	<div class="container">
@@ -181,7 +202,6 @@
                     </div>          
                 </div>
         </div>
-        {{-- For big image Add img-2 at class--}}
     		<div class="row">
     			<div class="col-md-8">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/library.png);">
@@ -252,7 +272,7 @@
                     </div>  
                   </div>
                 </div>
-				<div style="margin-top: -30px;" class="row">
+				<div style="margin-top: -30px;?" class="row">
 					<div class="col-md-6 animate-box">
 						<div class="progress-wrap ftco-animate">
 							<h3>Laravel</h3>
@@ -338,7 +358,9 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="about_e_details">
                         <h1 style="font-size: 52px;"><strong>About me</strong></h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida Risus com odo viverra maecenas.</p>
+                        <p>23 years old Student at Tripoli University, College of Computer Science, I work as a web developer  & designer,
+I like to solve problems that I encounter every day as a programmer,
+Interested in learning new skills and developing my skills in this field.</p>
                         <div class="download_cv">
                             <a class="boxed-btn3" href="{{route('home')}}#contact">Contact Me</a>
                         </div>
@@ -350,7 +372,7 @@
                             <img src="img/color_grid3.png" alt="">
                         </div>
                         <div class="my_Pic">
-                            <img src="img/my-image/about.png" alt="">
+                            <img src="img/my-image/about5.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -434,6 +456,7 @@
         </div>
     @endif
 
+
               <div class="form-group">
                 <input type="text" class="form-control" name="name" placeholder="Your Name">
               </div>
@@ -454,7 +477,7 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div class="img" style="background-image: url(img/about.jpg);"></div>
+          	<div class="img" style="background-image: url(img/contact.png);"></div>
           </div>
         </div>
       </div>
@@ -481,7 +504,7 @@
         <div class="row text-center">
           <div class="col-12">
             <p class="copyright"><small class="block">
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Made <img width="30px" height="25px" src="img/up2.png"> by <a href="{{route('home')}}" >Malik Alnabouli</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made <img width="30px" height="25px" src="img/up2.png"> by <a href="{{route('home')}}" >Malik Alnabouli</a>
             </small></p>
           </div>
         </div>

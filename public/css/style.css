@@ -385,16 +385,20 @@ ul {
     }
     /* line 142, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item {
-        text-align: left !important;
+        text-align: center !important;
+        background: #0c1028b4;
     }
     /* line 145, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item .nav-item {
         padding: 10px 15px !important;
     }
+    .main_menu .main-menu-item .nav-item:hover {
+        background: #fa4c4c;
+    }
     /* line 148, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item .nav-item .nav-link {
         padding: 5px 15px !important;
-        color: #000;
+        color: #fff;
     }
     /* line 155, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .navbar-collapse {
@@ -445,16 +449,20 @@ ul {
     }
     /* line 206, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item {
-        text-align: left !important;
+        text-align: center !important;
+        background: #0c1028b4;
     }
     /* line 209, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item .nav-item {
         padding: 10px 15px !important;
     }
+    .main_menu .main-menu-item .nav-item:hover {
+        background: #fa4c4c;
+    }
     /* line 212, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item .nav-item .nav-link {
         padding: 5px 15px !important;
-        color: #000;
+        color: #fff;
     }
     /* line 219, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .navbar-collapse {
@@ -505,16 +513,20 @@ ul {
     }
     /* line 269, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item {
-        text-align: left !important;
+        text-align: center !important;
+        background: #0c1028b4;
     }
     /* line 272, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item .nav-item {
         padding: 10px 15px !important;
     }
+    .main_menu .main-menu-item .nav-item:hover {
+        background: #fa4c4c;
+    }
     /* line 275, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu .main-menu-item .nav-item .nav-link {
         padding: 5px 15px !important;
-        color: #000;
+        color: #fff;
     }
     /* line 282, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .navbar-collapse {
@@ -591,7 +603,7 @@ ul {
 .banner_part {
     height: 890px;
     position: relative;
-    background-image: url(../img/home2.png);
+    background-image: url(../img/home3.png);
     background-repeat: no-repeat;
     background-size: 100% 99%;
     background-position: left top;
@@ -603,6 +615,12 @@ ul {
     .banner_part {
         height: 650px;
         background-size: cover;
+    }
+}
+
+@media (min-width: 1441px) {
+    .banner_part .myimg {
+        display: none;
     }
 }
 
@@ -628,12 +646,18 @@ ul {
         height: 650px;
         background-size: cover;
     }
+    .banner_part .myimg {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
     /* line 2, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_banner.scss */
     .banner_part {
         background-size: cover;
+    }
+    .banner_part .myimg {
+        display: none;
     }
 }
 
@@ -664,12 +688,20 @@ ul {
     .banner_part:after {
         display: none;
     }
+    .banner_part .myimg {
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 29, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_banner.scss */
     .banner_part:after {
         display: none;
+    }
+    .banner_part .myimg {
+        display: block;
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -697,6 +729,9 @@ ul {
         text-align: center;
         padding-top: 0px;
         height: 650px;
+    }
+    .banner_part .myimg {
+        display: block;
     }
 }
 
@@ -1487,7 +1522,7 @@ h3 {
     bottom: 0;
     content: '';
     opacity: 0;
-    background: #0d13358f;
+    background: #0d1335c2;
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -1501,7 +1536,7 @@ h3 {
 
 @media (max-width: 767.98px) {
     .project .overlay {
-        opacity: .2;
+        opacity: .7;
     }
 }
 
@@ -1710,7 +1745,7 @@ h3 {
 
 .block__45439 {
     padding-bottom: 7em;
-    padding-top: 10rem;
+    padding-top: 12rem;
 }
 
 .section-title-sub {
@@ -1736,7 +1771,7 @@ h3 {
 
 .block__86547 {
     position: relative;
-    background: #f8f9fa;
+    background: #fff;
     overflow: hidden;
     border-radius: 4px;
     -webkit-transition: 0.2s all cubic-bezier(0.66, 0.2, 0.48, 0.9);
@@ -1773,6 +1808,13 @@ h3 {
     color: #000;
 }
 
+.block__86547:hover>div h3 a,
+.block__86547:hover>div div a,
+.block__86547:hover>div h3,
+.block__86547:hover>div .block__27192 .jan {
+    color: #fff;
+}
+
 .block__86547>div h3 a:hover {
     text-decoration: none;
 }
@@ -1782,7 +1824,7 @@ h3 {
     display: inline-block;
     margin: 10px 20px;
     margin-left: 0;
-    color: #495057;
+    color: #545557cc;
 }
 
 .block__86547>div .block__27192>a span {
@@ -1795,9 +1837,7 @@ h3 {
 
 .block__86547:hover {
     top: -10px;
-    background: #fff;
-    -webkit-box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 20px -2px rgba(0, 0, 0, 0.2);
+    background: #0c1028c5;
 }
 
 
@@ -1820,11 +1860,17 @@ h3 {
     .footer-social a {
         margin: 0px 4px;
     }
+    .service_area .single_service {
+        border: 1px solid #f81c1c;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .footer-social a {
         margin: 0px 10px;
+    }
+    .service_area .single_service {
+        border: 1px solid #f81c1c;
     }
 }
 
@@ -1943,4 +1989,24 @@ h3 {
 
 .footer-social a:hover span {
     color: #f81c1c;
+}
+
+
+/* smmall image  */
+
+.myimg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.myimg {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    border: solid 10px #fe9999;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
 }

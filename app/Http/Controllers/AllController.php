@@ -25,15 +25,9 @@ class AllController extends Controller
             'message' => 'required'
         ]);
 
-        if ($validatedData->fails()) {
-            return redirect(url()->previous() .'#contact')
-                    ->withErrors($validatedData)
-                    ->withInput();        }
-
         $data = request()->all();
         Mail::to('maleknp127@gmail.com')->send(new ContactMail($data));
-        return redirect()->route('home')->with('success', 'Thanks for contacting us! ');
+        return redirect()->route('home')->with('success', 'Your Message has been Send, Thanks for contacting us! ');
     }
-
 
 }

@@ -34,7 +34,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="index.html"> <img src="img/logopng3.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="{{route('home')}}"> <img src="img/logopng3.png" alt="logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span style=" top: -16px; right: 11px; color: #fff; font-size: 33px;" class="fa fa-bars"></span>
                         </button>
@@ -115,7 +115,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-421cfc6d-63d9-4d2c-96f7-eeb78eba6c96/">Complete CSS3 and Bootstrap Course: Beginning to Advanced</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 1 Apr 2020</a>
+                  <a class="jan"><span class="date"></span> 1 Apr 2020</a>
                   <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
                 </div>
               </div>
@@ -128,7 +128,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://coursera.org/share/b721572e33e673b9646854c418ac2b30">HTML, CSS, and Javascript for Web Developers</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 7 Apr 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 7 Apr 2020</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
@@ -142,7 +142,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-14da1481-ee1f-441f-8439-5abb171a42c4/">Professional Design for Websites and Applications With Adobe XD</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 11 Apr 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 11 Apr 2020</a>
                   <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
                 </div>
               </div>
@@ -155,7 +155,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://coursera.org/share/4d7b57e02d282ac62eae60171e8a9e72">Building Web Applications in PHP</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 20 Mar 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 20 Mar 2020</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
@@ -169,7 +169,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-f94d29ea-4c14-4e8b-8be6-e15492e163ec/">Java Course For Beginners</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 25 Mar 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 25 Mar 2020</a>
                   <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
                 </div>
               </div>
@@ -182,7 +182,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://coursera.org/share/fdb10e023760c358b0210f0e215a3ce6">Introduction to HTML5</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 8 Mar 20120</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 8 Mar 20120</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
@@ -197,7 +197,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://coursera.org/share/9015b7dbd7d3f36a30340cdddb9c4d8d">Introduction to CSS3</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 4 Mar 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 4 Mar 2020</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
@@ -210,7 +210,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://coursera.org/share/f9af321169726bfe5f813c8063e84d4f">Interactivity with JavaScript</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 29 Feb 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 29 Feb 2020</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
@@ -225,7 +225,7 @@
               <div class="h-100">
                 <h3 class="mb-4">Web & Mobile App Development (Tec Camp)</h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 28 Jan 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 28 Jan 2020</a>
                   <a style="color: blue;" href="https://tatweerresearch.org"><span class="icon-person"></span> Tatweer Research</a>
                 </div>
               </div>
@@ -238,7 +238,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://coursera.org/share/dd1f60379103382e0b2724f5779f5a50">Programming for Everybody (Getting Started with Python)</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 13 Apr 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 13 Apr 2020</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
@@ -253,7 +253,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-85937c23-faaa-470a-b44d-6dc04058316c/">Learn C++ From Scratch</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 16 Apr 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 16 Apr 2020</a>
                   <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
                 </div>
               </div>
@@ -266,7 +266,7 @@
               <div class="h-100">
                 <h3 class="mb-4"><a href="https://coursera.org/share/4b4d9b39f6b85a4106f1f494cac090c0">Writing, Running, and Fixing Code in C</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
-                  <a><span class="icon-calendar-o"></span> 1 Mar 2020</a>
+                  <a class="jan"><span class="icon-calendar-o"></span> 1 Mar 2020</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
@@ -303,7 +303,7 @@
         <div class="row text-center">
           <div class="col-12">
             <p class="copyright"><small class="block">
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Made <img width="30px" height="25px" src="img/up2.png"> by <a href="{{route('home')}}" >Malik Alnabouli</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made <img width="30px" height="25px" src="img/up2.png"> by <a href="{{route('home')}}" >Malik Alnabouli</a>
             </small></p>
           </div>
         </div>
