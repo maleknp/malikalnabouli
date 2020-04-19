@@ -95,6 +95,12 @@
                     <div class="banner_text">
                         <div class="banner_text_iner">
 
+				<div class="js-fullheight d-flex justify-content-center align-items-center">
+					<div class="col-md-8 text text-center">
+						<div class="myimg mb-4" style="background-image: url(img/my-image/small2.jpg);"></div>
+					</div>
+				</div>
+
     @if (session('success'))
         <div style="" class="alert alert-success">
             {{ session('success') }}
@@ -110,15 +116,6 @@
             </ul>
         </div>
     @endif
-
-
-				<div class="js-fullheight d-flex justify-content-center align-items-center">
-					<div class="col-md-8 text text-center">
-						<div class="myimg mb-4" style="background-image: url(img/my-image/small2.jpg);"></div>
-					</div>
-				</div>
-
-
 
                             <h5>Hey there i'm</h5>
                             <h1>Malik Alnabouli</h1>
