@@ -145,22 +145,22 @@ ul {
 
 @media (max-width: 575px) {
     /* line 25, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_button.scss */
-    .btn_1 {
+    .btn_2 {
         padding: 9.5px 28px;
-        margin-top: 25px;
+        margin-top: 10px;
     }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* line 25, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_button.scss */
-    .btn_1 {
+    .btn_2 {
         padding: 9.5px 28px;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 25, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_button.scss */
-    .btn_1 {
+    .btn_2 {
         padding: 9.5px 28px;
     }
 }
@@ -179,6 +179,7 @@ ul {
     color: #fff;
     border: 2px solid #fff;
     font-family: "Roboto", sans-serif;
+    ;
 }
 
 
@@ -186,29 +187,7 @@ ul {
 
 .btn_2:hover {
     background-color: #fff;
-    color: #000;
-}
-
-@media (max-width: 575px) {
-    /* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_button.scss */
-    .btn_2 {
-        padding: 9.5px 28px;
-        margin-top: 25px;
-    }
-}
-
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-    /* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_button.scss */
-    .btn_2 {
-        padding: 9.5px 28px;
-    }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    /* line 56, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_button.scss */
-    .btn_2 {
-        padding: 9.5px 28px;
-    }
+    color: #f81c1c;
 }
 
 
@@ -260,7 +239,7 @@ ul {
 /* line 38, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
 
 .single_page_menu.menu_fixed .main-menu-item ul li .nav-link:hover {
-    color: #000 !important;
+    color: #0c1028 !important;
 }
 
 
@@ -428,7 +407,7 @@ ul {
     }
     /* line 185, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .navbar-brand img {
-        max-width: 100px;
+        max-width: 75px;
     }
     /* line 189, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .navbar-light .navbar-toggler {
@@ -441,7 +420,7 @@ ul {
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     /* line 198, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .main_menu {
-        padding: 10px 0px;
+        padding: 0px 0px;
     }
     /* line 202, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_menu.scss */
     .home_menu .main-menu-item {
@@ -914,10 +893,6 @@ ul {
 
 
 /* line 178, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_banner.scss */
-
-.banner_part .banner_text .btn_2 {
-    margin-left: 15px;
-}
 
 
 /* line 180, ../../01 cl html template/New folder/May 2019/173 Hipstyle Barber/Hipstyle Barber template/sass/_banner.scss */

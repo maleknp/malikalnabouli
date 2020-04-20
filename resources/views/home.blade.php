@@ -29,7 +29,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-12">
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand" href="{{route('home')}}"> <img src="img/logopng3.png" alt="logo"> </a>
+                        <a class="navbar-brand" href="{{route('home')}}"> <img src="img/logopng3.png" alt="Malik's Logo"> </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span style=" top: -16px; right: 11px; color: #fff; font-size: 33px;" class="fa fa-bars"></span>
                         </button>
@@ -120,10 +120,10 @@
                             <h5>Hey there i'm</h5>
                             <h1>Malik Alnabouli</h1>
                             <h2 style="color: white; margin-top: -20px;">Full Stack Developer</h2>
-                            <p>A student at the University of Tripoli, Computer Science <\></p>
+                            <p> student at Tripoli University, Computer Science <\> </p>
                             <div class="banner_btn">
-                                <a href="#" class="btn_1">Contact Me</a>
-                                <a href="#" class="btn_2">Hire Me</a>
+                                {{-- <a href="#" class="btn_1">Contact Me</a> --}}
+                                <a href="#" class="btn_2">Contact Me</a>
                             </div>
                         </div>
                     </div>
@@ -157,7 +157,7 @@
                             <img src="img/web2.png" alt="">
                         </div>
                         <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        <p>web publishing, web programming, and database management using laravel, php and mysql.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -166,7 +166,7 @@
                             <img src="img/64.png" alt="">
                         </div>
                         <h3>Web Design</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        <p> creates the look, layout, and features of a website using Adobe XD, html, css, js, Bootstrp.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -175,7 +175,7 @@
                             <img src="img/php.png" alt="">
                         </div>
                         <h3>PHP Developer</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
+                        <p>fast PHP to a high standard, develop back-end components, connect the application with other web services.</p>
                     </div>
                 </div>
             </div>
@@ -204,16 +204,17 @@
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/library.png);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Electronic Science Library</a></h3>
+	    					<h3 style="color: #fff;">Electronic Science Library</h3>
 	    					<h5 style="color: #fff;">Web Design</h5>
+                            <p style="color: #fff;" style="color; #fff;"> The Electronic science library was designed to help the students of the college of science to reach decisions, curricula and Tests for the benefit of the student.</p>
 	    				</div>
     				</div>
     			</div>
     			<div class="col-md-4">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/librarylogo.png);">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/librarylogo2.png);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Electronic Science Library Logo</a></h3>
+			    					<h3 style="color: #fff;">Electronic Science Library Logo</h3>
 	    					        <h5 style="color: #fff;">Visual identity  By:Luqman Kh</h5>
 			    				</div>
 		    				</div>
@@ -222,7 +223,7 @@
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/doctorlogo2.png);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">MyDoctor Logo</a></h3>
+	    					<h3 style="color: #fff;">MyDoctor Logo</h3>
 	    					<h5 style="color: #fff;">Visual identity</h5>
 	    				</div>
     				</div>
@@ -231,8 +232,9 @@
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/doctor.png);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">MyDoctor</a></h3>
+	    					<h3 style="color: #fff;">MyDoctor</h3>
 	    					<h5 style="color: #fff;">Web Design</h5>
+                            <p style="color: #fff;" style="color; #fff;"> website has designed to assist patients to obtain best/topspecialized doctors in every Libyan city through the website.</p>
 	    				</div>
     				</div>
   				</div>
@@ -240,16 +242,17 @@
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/hyper.png);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Hyper Team</a></h3>
+	    					<h3 style="color: #fff;">Hyper Team</h3>
 	    					<h5 style="color: #fff;">Web Design</h5>
+                            <p style="color: #fff;" style="color; #fff;"> website has designed for my team "Hyper Team" to showcase our services.</p>
 	    				</div>
     				</div>
     			</div>
     			<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/malik.png);">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/logoedit.png);">
 	    	     	    <div class="overlay"></div>
          				    <div class="text text-center p-4">
-	    					    <h3><a href="#">Malik Logo</a></h3>
+	    					    <h3 style="color: #fff;">Malik's Logo</h3>
 	        				    <h5 style="color: #fff;">Visual identity</h5>
 						    </div>
 		    		    </div>
@@ -431,7 +434,7 @@ Interested in learning new skills and developing my skills in this field.</p>
                             <span class="fa fa-paper-plane"></span>
                         </div>
                         <h3 class="mb-4">Email Address</h3>
-                        <p><a class="des" href="mailto:maleknp127@gmail.com">maleknp127@gmail.com</a></p>
+                        <p><a class="des" href="mailto:maleknp127@gmail.com">malikalnabouli@gmail.com</a></p>
                     </div>
                 </div>
     <a name="contact2"></a>

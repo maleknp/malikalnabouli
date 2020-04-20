@@ -23,6 +23,13 @@
 .section_title span:before {
     background: #0c1028;
 }
+
+@media (min-width: 992px) {
+    .main_menu .main-menu-item {
+        padding-left: 170px !important;
+    }
+}
+
 </style>
 
 </head>
@@ -264,7 +271,7 @@
               <figure class="img" style="background-image: url('img/cer/12.png')">
               </figure>
               <div class="h-100">
-                <h3 class="mb-4"><a href="https://coursera.org/share/4b4d9b39f6b85a4106f1f494cac090c0">Writing, Running, and Fixing Code in C</a></h3>
+                <h3 class="mb-4"><a href="https://coursera.org/share/ec39f7cc9c354121f2bcf3434337748c">C++ For C Programmers</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 1 Mar 2020</a>
                   <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
