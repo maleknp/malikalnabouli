@@ -121,9 +121,9 @@
                             <h1>Malik Alnabouli</h1>
                             <h2 style="color: white; margin-top: -20px;">Full Stack Developer</h2>
                             <p> student at Tripoli University, Computer Science <\> </p>
-                            <div class="banner_btn">
+                            <div class="banner_btn one">
                                 {{-- <a href="#" class="btn_1">Contact Me</a> --}}
-                                <a href="#" class="btn_2">Contact Me</a>
+                                <a href="{{route('home')}}#contact" class="btn_2">Contact Me</a>
                             </div>
                         </div>
                     </div>
