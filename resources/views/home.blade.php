@@ -5,7 +5,7 @@
 
 
     <!-- Required meta tags           red #f81c1c    black #30383b    project hover #0c1028-->
-    <meta name="description" content="I'm Malik Alnabouli 23 years old from Libya Student at Tripoli University, College of Computer Science, I work as a web developer  & designer.">
+    <meta name="description" content="I'm Malik Alnabouli 23 years old from Libya Student at Tripoli University, Computer Science, I work as a web developer  & designer.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Malik Alnabouli</title>
@@ -358,7 +358,7 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="about_e_details">
                         <h1 style="font-size: 52px;"><strong>About me</strong></h1>
-                        <p>23 years old Student at Tripoli University, College of Computer Science, I work as a web developer  & designer,
+                        <p>23 years old Student at Tripoli University, Computer Science, I work as a web developer  & designer,
 I like to solve problems that I encounter every day as a programmer,
 Interested in learning new skills and developing my skills in this field.</p>
                         <div class="download_cv">
