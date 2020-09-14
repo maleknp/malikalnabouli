@@ -172,12 +172,13 @@
                 <div class="col-xl-4 col-md-4">
                     <div class="single_service text-center">
                         <div class="icon">
-                            <img src="img/php.png" alt="">
+                            <img src="img/robot.png" alt="">
                         </div>
-                        <h3>PHP Developer</h3>
-                        <p>fast PHP to a high standard, develop back-end components, connect the application with other web services.</p>
+                        <h3>Messenger ChatBot</h3>
+                        <p>An automatic system that works to display your products or auto-reply via Facebook page messages</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     <a name="projects"></a>
@@ -210,15 +211,19 @@
 	    				</div>
     				</div>
     			</div>
+
     			<div class="col-md-4">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/librarylogo2.png);">
+                            <a href="https://web.facebook.com/messages/t/Diollo.ly">
+		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/bot.jpg);">
 		    					<div class="overlay"></div>
 			    				<div class="text text-center p-4">
-			    					<h3 style="color: #fff;">Electronic Science Library Logo</h3>
-	    					        <h5 style="color: #fff;">Visual identity  By:Luqman Kh</h5>
+			    					<h3 style="color: #fff;">Diollo ChatBot</h3>
+	    					        <h5 style="color: #fff;">An online store to display products, reservations and a lot of options across the system via page messages</h5>
 			    				</div>
 		    				</div>
+                            </a>
     			</div>
+
     			<div class="col-md-4">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/doctorlogo2.png);">
     					<div class="overlay"></div>
