@@ -214,7 +214,7 @@
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3 style="color: #fff;">Online Courses</h3>
-	    					        <h5 style="color: #fff;">Web Development</h5>
+	    					<h5 style="color: #fff;">Web Development</h5>
 	    				</div>
     				</div>
                   </a>
@@ -230,6 +230,7 @@
     				</div>
   				</div>
 
+
     			<div class="col-md-8">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/dl.jpg);">
     					<div class="overlay"></div>
@@ -241,15 +242,19 @@
     				</div>
     			</div>
     			<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/dl3.png);">
-	    	     	    <div class="overlay"></div>
-         				    <div class="text text-center p-4">
-	    					    <h3 style="color: #fff;">Delivery Management System</h3>
-	        				    <h5 style="color: #fff;">Web Development</h5>
-						    </div>
-		    		    </div>
-    			    </div>
-    		    </div>
+                    <a>
+		    			<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/dl3.png);">
+		    				<div class="overlay"></div>
+			    			<div class="text text-center p-4">
+			    				<h3 style="color: #fff;">Delivery Management System</h3>
+	    				        <h5 style="color: #fff;">Web Development
+                                </h5>
+			    			</div>
+		    			</div>
+                    </a>
+    			</div>
+
+
 
 
     			<div class="col-md-4">
@@ -287,16 +292,16 @@
     			</div>
 
     			<div class="col-md-4">
-                            <a href="https://www.smartcell.ly">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/st.jpg);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3 style="color: #fff;">SmartCell System</h3>
-	    					        <h5 style="color: #fff;">It is an integrated system that helps and organizes the client's project and the products that he sells through the Facebook page by designing and programming his own store within the messaging platform of his page
-</h5>
-			    				</div>
-		    				</div>
-                            </a>
+                    <a href="https://www.smartcell.ly">
+		    			<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/st.jpg);">
+		    				<div class="overlay"></div>
+			    			<div class="text text-center p-4">
+			    				<h3 style="color: #fff;">SmartCell System</h3>
+	    				        <h5 style="color: #fff;">It is an integrated system that helps and organizes the client's project and the products that he sells through the Facebook page by designing and programming his own store within the messaging platform of his page
+                                </h5>
+			    			</div>
+		    			</div>
+                    </a>
     			</div>
 
 
