@@ -138,7 +138,7 @@
                 <h3 class="mb-4">Web & Mobile App Development (Tec Camp)</h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 28 Jan 2020</a>
-                  <a style="color: blue;" target="_blank" href="https://tatweerresearch.org"><span class="icon-person"></span> Tatweer Research</a>
+                  <a style="color: green;" target="_blank" href="https://tatweerresearch.org"><span class="icon-person"></span> Tatweer Research</a>
                 </div>
               </div>
             </div>
