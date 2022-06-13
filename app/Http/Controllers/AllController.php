@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Mail\ContactMail;
+use Response;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Mail;
@@ -17,7 +18,11 @@ class AllController extends Controller
     }
 
     public function downloadcv(){
-        return response()->download(public_path('img'.'\Malik-CV.pdf'), 'Malik-Alnabouli-CV.pdf');
+
+        $filepath = public_path('img/Malik-Alnabouli-CV.pdf');
+        return Response::download($filepath); 
+
+        // return response()->download(public_path('img'.'\Malik-CV.pdf'), 'Malik-Alnabouli-CV.pdf');
     }
 
     public function send(Request $request)

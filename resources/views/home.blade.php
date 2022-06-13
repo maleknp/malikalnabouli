@@ -205,6 +205,31 @@
         </div>
     		<div class="row">
 
+
+
+
+    			<div class="col-md-4">
+                  <a>
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/222.png); width: 100%;">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3 style="color: #fff;">Online Courses</h3>
+	    					        <h5 style="color: #fff;">Web Development</h5>
+	    				</div>
+    				</div>
+                  </a>
+  				</div>
+  				<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/oc.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3 style="color: #fff;">Online Courses</h3>
+	    					<h5 style="color: #fff;">Web Development</h5>
+                            <p style="color: #fff;" style="color; #fff;"> korean language learning website.</p>
+	    				</div>
+    				</div>
+  				</div>
+
     			<div class="col-md-8">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/dl.jpg);">
     					<div class="overlay"></div>
@@ -229,22 +254,22 @@
 
     			<div class="col-md-4">
                   <a>
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/222.png); width: 100%;">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/bot.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3 style="color: #fff;">Online Courses</h3>
-	    					        <h5 style="color: #fff;">Web Development</h5>
+	    					<h3 style="color: #fff;">Diollo ChatBot</h3>
+	    					        <h5 style="color: #fff;">An online store to display products, reservations and a lot of options across the system via page messages</h5>
 	    				</div>
     				</div>
                   </a>
   				</div>
   				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/oc.png);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/doctor.png);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3 style="color: #fff;">Online Courses</h3>
-	    					<h5 style="color: #fff;">Web Development</h5>
-                            <p style="color: #fff;" style="color; #fff;"> korean language learning website.</p>
+	    					<h3 style="color: #fff;">MyDoctor</h3>
+	    					<h5 style="color: #fff;">Web Design</h5>
+                            <p style="color: #fff;" style="color; #fff;"> website has designed to assist patients to obtain best/topspecialized doctors in every Libyan city through the website.</p>
 	    				</div>
     				</div>
   				</div>
@@ -274,28 +299,6 @@
                             </a>
     			</div>
 
-
-    			<div class="col-md-4">
-                  <a>
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/bot.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3 style="color: #fff;">Diollo ChatBot</h3>
-	    					        <h5 style="color: #fff;">An online store to display products, reservations and a lot of options across the system via page messages</h5>
-	    				</div>
-    				</div>
-                  </a>
-  				</div>
-  				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/doctor.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3 style="color: #fff;">MyDoctor</h3>
-	    					<h5 style="color: #fff;">Web Design</h5>
-                            <p style="color: #fff;" style="color; #fff;"> website has designed to assist patients to obtain best/topspecialized doctors in every Libyan city through the website.</p>
-	    				</div>
-    				</div>
-  				</div>
 
     	    </div>
         </section>
