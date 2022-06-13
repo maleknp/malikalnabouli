@@ -115,6 +115,35 @@
           </div>
         </div>
         <div class="row">
+
+          <div class="col-md-6 col-lg-6 mb-4">
+            <div class="block__86547 d-block d-xl-flex align-items-stretch">
+              <figure class="img" style="background-image: url('img/tp3.jpg')">
+              </figure>
+              <div class="h-100">
+                <h3 class="mb-4"><a>Computer Science</a></h3>
+                <div class="block__27192 d-flex pt-1 border-top">
+                  <a class="jan"><span class="icon-calendar-o"></span> June 2022</a>
+                  <a style="color: gold;" target="_blank" href="https://uot.edu.ly/"><span class="icon-person"></span> Tripoli University, Faculty of Science</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-6 mb-4">
+            <div class="block__86547 d-block d-xl-flex align-items-stretch">
+              <figure class="img" style="background-image: url('img/cer/9.png')">
+              </figure>
+              <div class="h-100">
+                <h3 class="mb-4">Web & Mobile App Development (Tec Camp)</h3>
+                <div class="block__27192 d-flex pt-1 border-top">
+                  <a class="jan"><span class="icon-calendar-o"></span> 28 Jan 2020</a>
+                  <a style="color: blue;" target="_blank" href="https://tatweerresearch.org"><span class="icon-person"></span> Tatweer Research</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div class="col-md-6 col-lg-6 mb-4">
             <div class="block__86547 d-block d-xl-flex align-items-stretch">
               <figure class="img" style="background-image: url('img/cer/111.png')">
@@ -123,7 +152,7 @@
                 <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-421cfc6d-63d9-4d2c-96f7-eeb78eba6c96/">Complete CSS3 and Bootstrap Course: Beginning to Advanced</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="date"></span> 1 Apr 2020</a>
-                  <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
+                  <a style="color: red;" target="_blank" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
                 </div>
               </div>
             </div>
@@ -136,7 +165,7 @@
                 <h3 class="mb-4"><a href="https://coursera.org/share/b721572e33e673b9646854c418ac2b30">HTML, CSS, and Javascript for Web Developers</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 7 Apr 2020</a>
-                  <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
+                  <a style="color: blue;" target="_blank" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
             </div>
@@ -150,7 +179,7 @@
                 <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-14da1481-ee1f-441f-8439-5abb171a42c4/">Professional Design for Websites and Applications With Adobe XD</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 11 Apr 2020</a>
-                  <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
+                  <a style="color: red;" target="_blank" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
                 </div>
               </div>
             </div>
@@ -163,7 +192,7 @@
                 <h3 class="mb-4"><a href="https://coursera.org/share/4d7b57e02d282ac62eae60171e8a9e72">Building Web Applications in PHP</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 20 Mar 2020</a>
-                  <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
+                  <a style="color: blue;" target="_blank" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
             </div>
@@ -177,35 +206,7 @@
                 <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-f94d29ea-4c14-4e8b-8be6-e15492e163ec/">Java Course For Beginners</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 25 Mar 2020</a>
-                  <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('img/cer/6.png')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="https://coursera.org/share/fdb10e023760c358b0210f0e215a3ce6">Introduction to HTML5</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a class="jan"><span class="icon-calendar-o"></span> 8 Mar 20120</a>
-                  <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('img/cer/7.png')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="https://coursera.org/share/9015b7dbd7d3f36a30340cdddb9c4d8d">Introduction to CSS3</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a class="jan"><span class="icon-calendar-o"></span> 4 Mar 2020</a>
-                  <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
+                  <a style="color: red;" target="_blank" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
                 </div>
               </div>
             </div>
@@ -218,54 +219,18 @@
                 <h3 class="mb-4"><a href="https://coursera.org/share/f9af321169726bfe5f813c8063e84d4f">Interactivity with JavaScript</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 29 Feb 2020</a>
-                  <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
+                  <a style="color: blue;" target="_blank" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
             </div>
           </div>
 
 
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('img/cer/9.png')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4">Web & Mobile App Development (Tec Camp)</h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a class="jan"><span class="icon-calendar-o"></span> 28 Jan 2020</a>
-                  <a style="color: blue;" href="https://tatweerresearch.org"><span class="icon-person"></span> Tatweer Research</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('img/cer/10.png')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="https://coursera.org/share/dd1f60379103382e0b2724f5779f5a50">Programming for Everybody (Getting Started with Python)</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a class="jan"><span class="icon-calendar-o"></span> 13 Apr 2020</a>
-                  <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
-                </div>
-              </div>
-            </div>
-          </div>
 
 
-          <div class="col-md-6 col-lg-6 mb-4">
-            <div class="block__86547 d-block d-xl-flex align-items-stretch">
-              <figure class="img" style="background-image: url('img/cer/1111.png')">
-              </figure>
-              <div class="h-100">
-                <h3 class="mb-4"><a href="https://www.udemy.com/certificate/UC-85937c23-faaa-470a-b44d-6dc04058316c/">Learn C++ From Scratch</a></h3>
-                <div class="block__27192 d-flex pt-1 border-top">
-                  <a class="jan"><span class="icon-calendar-o"></span> 16 Apr 2020</a>
-                  <a style="color: red;" href="https://www.udemy.com"><span class="icon-person"></span> Udemy</a>
-                </div>
-              </div>
-            </div>
-          </div>
+
+
+
           <div class="col-md-6 col-lg-6 mb-4">
             <div class="block__86547 d-block d-xl-flex align-items-stretch">
               <figure class="img" style="background-image: url('img/cer/12.png')">
@@ -274,11 +239,27 @@
                 <h3 class="mb-4"><a href="https://coursera.org/share/ec39f7cc9c354121f2bcf3434337748c">C++ For C Programmers</a></h3>
                 <div class="block__27192 d-flex pt-1 border-top">
                   <a class="jan"><span class="icon-calendar-o"></span> 1 Mar 2020</a>
-                  <a style="color: blue;" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
+                  <a style="color: blue;" target="_blank" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
                 </div>
               </div>
             </div>
           </div>
+
+
+          <div class="col-md-6 col-lg-6 mb-4">
+            <div class="block__86547 d-block d-xl-flex align-items-stretch">
+              <figure class="img" style="background-image: url('img/cer/10.png')">
+              </figure>
+              <div class="h-100">
+                <h3 class="mb-4"><a href="https://coursera.org/share/dd1f60379103382e0b2724f5779f5a50">Programming for Everybody (Getting Started with Python)</a></h3>
+                <div class="block__27192 d-flex pt-1 border-top">
+                  <a class="jan"><span class="icon-calendar-o"></span> 13 Apr 2020</a>
+                  <a style="color: blue;" target="_blank" href="https://www.coursera.org"><span class="icon-person"></span> Coursera</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
 
 

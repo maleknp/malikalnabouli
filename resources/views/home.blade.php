@@ -232,7 +232,7 @@
 
 
     			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/11.jpg);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/11.JPG);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
 	    					<h3 style="color: #fff;">Delivery Management System</h3>
