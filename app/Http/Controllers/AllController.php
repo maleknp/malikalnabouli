@@ -16,6 +16,10 @@ class AllController extends Controller
         return view('Certificates');
     }
 
+    public function downloadcv(){
+        return response()->download(public_path('img'.'\Malik-CV.pdf'), 'Malik-Alnabouli-CV.pdf');
+    }
+
     public function send(Request $request)
     {
         $validatedData = $request->validate([

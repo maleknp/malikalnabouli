@@ -18,4 +18,5 @@ Route::get('/Certificates', 'AllController@cer')->name('cer');
 
 // Mail
 Route::post('/contact','AllController@send')->name('contact');
+Route::get('/DownloadCV','AllController@downloadcv')->name('downloadcv');
 

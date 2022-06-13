@@ -101,6 +101,13 @@
 					</div>
 				</div>
 
+
+                            <h5>Hey there i'm</h5>
+                            <h1>Malik Alnabouli</h1>
+                            <h2 style="color: white; margin-top: -20px;">Full Stack Developer</h2>
+                            <p><\> Graduated From Tripoli University, Computer Science <\> </p>
+
+          <div class="col-lg-4 col-md-12 col-sm-12">                
     @if (session('success'))
         <div style="" class="alert alert-success">
             {{ session('success') }}
@@ -115,12 +122,8 @@
                 @endforeach
             </ul>
         </div>
-    @endif
-
-                            <h5>Hey there i'm</h5>
-                            <h1>Malik Alnabouli</h1>
-                            <h2 style="color: white; margin-top: -20px;">Full Stack Developer</h2>
-                            <p> student at Tripoli University, Computer Science <\> </p>
+    @endif    
+    </div>                      
                             <div class="banner_btn one">
                                 {{-- <a href="#" class="btn_1">Contact Me</a> --}}
                                 <a href="{{route('home')}}#contact" class="btn_2">Contact Me</a>
@@ -201,6 +204,52 @@
                 </div>
         </div>
     		<div class="row">
+
+    			<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/dl.jpg);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3 style="color: #fff;">Delivery Management System</h3>
+	    					<h5 style="color: #fff;">Web Development</h5>
+                            <p style="color: #fff;" style="color; #fff;"> A system for managing delivery services to organize deliveries between stores and delegates.</p>
+	    				</div>
+    				</div>
+    			</div>
+    			<div class="col-md-4">
+					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/dl3.png);">
+	    	     	    <div class="overlay"></div>
+         				    <div class="text text-center p-4">
+	    					    <h3 style="color: #fff;">Delivery Management System</h3>
+	        				    <h5 style="color: #fff;">Web Development</h5>
+						    </div>
+		    		    </div>
+    			    </div>
+    		    </div>
+
+
+    			<div class="col-md-4">
+                  <a>
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/222.png); width: 100%;">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3 style="color: #fff;">Online Courses</h3>
+	    					        <h5 style="color: #fff;">Web Development</h5>
+	    				</div>
+    				</div>
+                  </a>
+  				</div>
+  				<div class="col-md-8">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/oc.png);">
+    					<div class="overlay"></div>
+	    				<div class="text text-center p-4">
+	    					<h3 style="color: #fff;">Online Courses</h3>
+	    					<h5 style="color: #fff;">Web Development</h5>
+                            <p style="color: #fff;" style="color; #fff;"> korean language learning website.</p>
+	    				</div>
+    				</div>
+  				</div>
+
+
     			<div class="col-md-8">
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/library.png);">
     					<div class="overlay"></div>
@@ -225,8 +274,9 @@
                             </a>
     			</div>
 
+
     			<div class="col-md-4">
-                  <a href="https://web.facebook.com/messages/t/Diollo.ly">
+                  <a>
     				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/bot.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
@@ -246,26 +296,7 @@
 	    				</div>
     				</div>
   				</div>
-    			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/project/hyper.png);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3 style="color: #fff;">Hyper Team</h3>
-	    					<h5 style="color: #fff;">Web Design</h5>
-                            <p style="color: #fff;" style="color; #fff;"> website has designed for my team "Hyper Team" to showcase our services.</p>
-	    				</div>
-    				</div>
-    			</div>
-    			<div class="col-md-4">
-					<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(img/logoedit.png);">
-	    	     	    <div class="overlay"></div>
-         				    <div class="text text-center p-4">
-	    					    <h3 style="color: #fff;">Malik's Logo</h3>
-	        				    <h5 style="color: #fff;">Visual identity</h5>
-						    </div>
-		    		    </div>
-    			    </div>
-    		    </div>
+
     	    </div>
         </section>
 
@@ -366,9 +397,7 @@
                 <div class="col-xl-6 col-md-6">
                     <div class="about_e_details">
                         <h1 style="font-size: 52px;"><strong>About me</strong></h1>
-                        <p>23 years old Student at Tripoli University, Computer Science, I work as a web developer  & designer,
-I like to solve problems that I encounter every day as a programmer,
-Interested in learning new skills and developing my skills in this field.</p>
+                        <p>Graduated From Tripoli university precisely at computer science department.programming is my passion, I work as web developer as well as web designer , My hobbies are solving programming issues which I am dealing with daily as a programmer. Even though l always improving my skills, I prefer to gaining new and different skills as well.</p>
                         <div class="download_cv">
                             <a class="boxed-btn3" href="{{route('home')}}#contact">Contact Me</a>
                         </div>
@@ -399,7 +428,7 @@ Interested in learning new skills and developing my skills in this field.</p>
 						<h2>I'm <span>Available</span> For Freelancing</h2>
 					</div>
 					<div class="col-md-4 col-lg-3 d-flex align-items-center ftco-animate">
-						<p class="mb-0"><a href="{{route('home')}}#contact2" class="btn btn-white py-4 px-5">Hire me</a></p>
+						<p class="mb-0"><a href="{{route('downloadcv')}}" class="btn btn-white py-4 px-5">Download CV</a></p>
 					</div>
 				</div>
 			</div>
@@ -429,20 +458,20 @@ Interested in learning new skills and developing my skills in this field.</p>
                 </div>
                 <div class="col-md-4 col-lg-4 d-flex ftco-animate">
                     <div class="align-self-stretch box p-4 text-center">
-                        <div class="icon d-flex align-items-center justify-content-center">
+                        <a href="tel://218927971679"><div class="icon d-flex align-items-center justify-content-center">
                             <span class="fa fa-phone"></span>
-                        </div>
+                        </div></a>
                         <h3 class="mb-4">Contact Number</h3>
                         <p><a class="des" href="tel://218927971679">+218927971679</a></p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 d-flex ftco-animate">
                     <div class="align-self-stretch box p-4 text-center">
-                        <div class="icon d-flex align-items-center justify-content-center">
+                        <a href="mailto:maleknp127@gmail.com"><div class="icon d-flex align-items-center justify-content-center">
                             <span class="fa fa-paper-plane"></span>
-                        </div>
+                        </div></a>
                         <h3 class="mb-4">Email Address</h3>
-                        <p><a class="des" href="mailto:maleknp127@gmail.com">malikalnabouli@gmail.com</a></p>
+                        <p><a class="des" href="mailto:maleknp127@gmail.com">maleknp127@gmail.com</a></p>
                     </div>
                 </div>
     <a name="contact2"></a>
@@ -466,13 +495,13 @@ Interested in learning new skills and developing my skills in this field.</p>
 
 
               <div class="form-group">
-                <input type="text" class="form-control" name="name" placeholder="Your Name">
+                <input type="text" class="form-control" name="name" placeholder="Your Name" required oninvalid="this.setCustomValidity('Please enter your name ')" oninput="this.setCustomValidity('')">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="email" placeholder="Your Email">
+                <input type="text" class="form-control" name="email" placeholder="Your Email" required oninvalid="this.setCustomValidity('Please enter your E-mail ')" oninput="this.setCustomValidity('')">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" name="subject" placeholder="Subject">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required oninvalid="this.setCustomValidity('Please enter the subject ')" oninput="this.setCustomValidity('')">
               </div>
               <div class="form-group">
                 <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
